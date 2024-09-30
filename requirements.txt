@@ -1,0 +1,9 @@
+requests>=2.31.0
+Flask>=2.2.2
+pytube>=15.0.0
+youtube-search-python>=1.6.6
+beautifulsoup4>=4.11.1
+aiohttp
+asyncio
+datetime
+gunicorn

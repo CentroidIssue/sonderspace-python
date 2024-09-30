@@ -1,0 +1,238 @@
+{
+    "welcome": {
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "generic",
+                    "elements": [
+                        {
+                            "title": "Welcome to Sonder Space!",
+                            "image_url": "https://i.ibb.co/vhdqKGV/Sonder-Space.png",
+                            "subtitle": "Tính năng chat ẩn danh của K54 TIN CSP",
+                            "default_action": {
+                                "type": "web_url",
+                                "url": "https://www.facebook.com/sonderspace.ss/",
+                                "webview_height_ratio": "tall"
+                            },
+                            "buttons": [
+                                {
+                                    "type": "postback",
+                                    "title": "Start Chatting",
+                                    "payload": "Start Chatting"
+                                },
+                                {
+                                    "type": "postback",
+                                    "title": "How to use",
+                                    "payload": "Guide"
+                                },
+                                {
+                                    "type": "web_url",
+                                    "title": "Tìm prommate",
+                                    "url": "https://docs.google.com/forms/d/e/1FAIpQLScIW7sFMSpuYWffJiO36Fxb4E8Xq8hhot1BqsjSS19d7XvPZQ/viewform"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Welcome to Sonder Space!",
+                            "image_url": "https://i.ibb.co/vhdqKGV/Sonder-Space.png",
+                            "subtitle": "Tính năng chat ẩn danh của K54 TIN CSP",
+                            "default_action": {
+                                "type": "web_url",
+                                "url": "https://www.facebook.com/sonderspace.ss/",
+                                "webview_height_ratio": "tall"
+                            },
+                            "buttons": [
+                                {
+                                    "type": "web_url",
+                                    "url": "https://m.me/admin.circusk54tin",
+                                    "title": "Contact Admin"
+                                },
+                                {
+                                    "type": "web_url",
+                                    "url": "https://jaibtdou.pythonanywhere.com/changelog",
+                                    "title": "History"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "how to use": {
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "generic",
+                    "elements": [
+                        {
+                            "title": "Click here to start",
+                            "buttons": [
+                                {
+                                    "type": "postback",
+                                    "title": "Start Chatting",
+                                    "payload": "Start Chatting"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "gender1": {
+        "messaging_type": "RESPONSE",
+        "message": {
+            "text": "🖥 Hệ thống: Vui lòng chọn giới tính của bạn!",
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "👦 Boy",
+                    "payload": "11"
+                },
+                {
+                    "content_type": "text",
+                    "title": "👧 Girl",
+                    "payload": "12"
+                }
+            ]
+        }
+    },
+    "gender2": {
+        "messaging_type": "RESPONSE",
+        "message": {
+            "text": "🖥 Hệ thống: Hãy chọn giới tính của đối phương!",
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "👦 Boy",
+                    "payload": "21"
+                },
+                {
+                    "content_type": "text",
+                    "title": "👧 Girl",
+                    "payload": "22"
+                },
+                {
+                    "content_type": "text",
+                    "title": "🙄 Anyone",
+                    "payload": "23"
+                }
+            ]
+        }
+    },
+    "keep": {
+        "messaging_type": "RESPONSE",
+        "message": {
+            "text": "🖥 Hệ thống: Phía đối diện yêu cầu lệnh /keep. Bạn có chấp nhận?",
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "✅ Có",
+                    "payload": "True"
+                },
+                {
+                    "content_type": "text",
+                    "title": "❌Không",
+                    "payload": "False"
+                }
+            ]
+        },
+        "recipient":{
+            "id": ""
+        }
+    },
+    "music": {
+        "messaging_type": "RESPONSE",
+        "message": {
+            "text": "🖥 Hệ thống: Please choose music!"
+        },
+        "recipient":{
+            "id": ""
+        }
+    },
+    "music_button": {
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "generic",
+                    "elements": [
+                        {
+                            "title": "🖥 Hệ thống: Please choose the music ID you want to play!",
+                            "buttons": [
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "recipient":{
+            "id": ""
+        }
+    },
+    "audio": {
+        "message": {
+            "attachment": {
+                "type": "audio",
+                "payload": {
+                    "url": ""
+                }
+            }
+        },
+        "recipient": {
+            "id": ""
+        },
+        "message_type" : "MESSAGE_TAG",
+        "tag" : "ACCOUNT_UPDATE"
+    },
+    "how to music": "🖥 Hệ thống: Bạn có thể dùng \"/music search\" hoặc \"/music play\".\nVD:\n- \"/music search Never Gonna Give You Up\"\n- \"/music play https://www.youtube.com/watch?v=dQw4w9WgXcQ\"\n- \"/music lyrics Never gonna give you up\"",
+    "how to report": "🖥 Hệ thống: Hãy viết lí do cụ thể. VD: \"/report Spam\"",
+    "Guide": "🖥 Hệ thống: Chào mừng đến với Sonder Space - tính năng chat ẩn danh của Circus Tin54 và những người bạn.\n\n- Để bắt đầu, bấm nút \"Start Chatting\" (hoặc gõ \"/start\"). Sau đó, vui lòng chọn giới tính của bạn và giới tính của nửa kia mà bạn mong muốn.\n- Để kết thúc cuộc trò chuyện hoặc thoát khỏi hàng đợi, vui lòng gõ \"/end\".\n- Nếu bạn muốn giữ cuộc trò chuyện không tự động ngắt, hãy gõ lệnh \"/keep\".\n- Bạn có thể dùng lệnh \"/music\" để bật nhạc.\n- Để báo cáo hành vi sai trái của đối phương, vui lòng gõ \"/report\".\n\n* Lưu ý: \n1. Cuộc trò chuyện sẽ tự động kết thúc sau 45 phút nếu như các bạn không gửi bất kỳ tin nhắn gì cho nhau. Nếu muốn giữ cuộc trò chuyện không tự động ngắt, hãy gõ lệnh \"/keep\". Lệnh \"/keep\" chỉ được thực hiện khi đối phương cũng đồng ý. \n2. Bạn không nên ấn các nút trong box chat nhiều lần liên tục.\n3. Bạn hãy gõ \"/end\" để kết thúc cuộc trò chuyện hoặc thoát khỏi hàng đợi, trước khi bắt đầu match với người mới.\n4. Bạn không thể react hoặc reply tin nhắn của đối phương.\n5.Bạn không thể gửi các hình ảnh, video nhạy cảm hay bạo lực. Nếu bạn vi phạm nhiều lần, tài khoản của bạn sẽ bị khóa.\n6. Hãy report các người dùng có hành vi không đúng chuẩn mực.\n7. Hãy liên hệ admin ngay lập tức khi bạn gặp phải lỗi khi sử dụng nhé.",
+    "instruction": "🖥 Hệ thống: Vui lòng nhập \"/help\" để biết thêm thông tin! 📜",
+    "answering error": "🖥 Hệ thống: Bạn phải chọn giới tính của bạn trước khi chọn phía đối diện ⛔",
+    "in queue": "🖥 Hệ thống: Bạn đã ở trong hàng chờ! 💢",
+    "left queue": "🖥 Hệ thống: Bạn đã rời sảnh chờ!",
+    "in chat": "🖥 Hệ thống: Bạn đang trong một cuộc trò chuyện",
+    "not in chat": "🖥 Hệ thống: Bạn không trong cuộc trò chuyện nào cả 💥",
+    "matching success": "🖥 Hệ thống: Ai đó đã kết nối với bạn. Hãy gửi lời chào tới đằng ấy 👋",
+    "queuing": "🖥 Hệ thống: Bạn đã được vào hàng chờ. Bạn sẽ được thông báo khi có ai đó sẵn sàng tham gia cuộc trò chuyện. Để rời khỏi hàng chờ hoặc thoát cuộc trò chuyện, bạn có thể dùng lệnh \"/end\" 😉",
+    "endingreq": "🖥 Hệ thống: Bạn đã kết thúc cuộc trò chuyện! Đừng quên nếu cảm thấy đối phương có ý đồ tiêu cực, bạn có thể dùng lệnh /report 💔",
+    "ending": "🖥 Hệ thống: Phía đối diện đã kết thúc cuộc trò chuyện! Đừng quên nếu cảm thấy đối phương có ý đồ tiêu cực, bạn có thể dùng lệnh /report 💔",
+    "donate": "🖥 Hệ thống: Hiện tại, sản phẩm chúng mình tạo ra 1 phần lớn là nhờ tâm huyết. Vậy nên nếu bạn cảm thấy yêu thích, hãy ủng hộ chúng tớ tại đây: bit.ly/sonderspace-donation\n\nSự ủng hộ của cậu sẽ góp phần rất lớn giúp Sonder Space duy trì và phát triển sever đó!",
+    "full command": "🖥 Hệ thống: Các lệnh có thể tìm kiếm ở đây: https://midnightmelancholia.pythonanywhere.com/docs",
+    "change log": "🖥 Hệ thống: Bạn cũng có thể xem các bản cập nhật trước đó ở đây: https://midnightmelancholia.pythonanywhere.com/changelog",
+    "limit exceeded": "🖥 Hệ thống: Yêu cầu của bạn không được dài hơn 10 phút",
+    "out of quota": "🖥 Hệ thống: Hiện tại, tính năng này đã đạt giới hạn và không thể sử dụng trong ngày. Tuy nhiên, mình sẽ nhận các phản hồi tích cực và sẽ cải thiện hơn trong tương lai. Bạn có thể đợi ngày hôm sau để tính năng hoạt động trở lại",
+    "invalid music url": "🖥 Hệ thống: Yêu cầu không hợp lệ. Vui lòng thử lại link gửi",
+    "in chat required": "🖥 Hệ thống: Bạn phải ở trong một cuộc trò chuyện mới có thể sử dụng tính năng này",
+    "cannot find lyrics": "🖥 Hệ thống: Không thể tìm lời của bài hát này. Hãy thử nhập một cách chi tiết hơn, hoặc chưa có thông tin về bài hát này",
+    "command executed": "🖥 Hệ thống: Lệnh của bạn đã được thực hiện",
+    "already banned" : "🖥 Hệ thống: This user is already banned",
+    "already unbanned" : "🖥 Hệ thống: This user is already unbanned",
+    "extended convo" : "🖥 Hệ thống: Tính năng /keep đã được kích hoạt. Cuộc trò chuyện của bạn sẽ kết thúc sau 24 giờ nếu không có sự tương tác.",
+    "keep denied" : "🖥 Hệ thống: Đối phương từ chối lệnh /keep của bạn",
+    "keep sent" : "🖥 Hệ thống: Yêu cầu /keep của bạn đã được gửi cho phía đối phương",
+    "account banned" : "🖥 Hệ thống: Tài khoản của bạn đã bị cấm sử dụng vĩnh viễn. Nếu bạn muốn khiếu nại, bạn hay liên hệ admin tại https://m.me/admin.circusk54tin",
+    "maintenance" : "🖥 Hệ thống: Tính năng này đang được bảo trì. Xin lỗi vì sự bất tiện này",
+    "attachment failed" : "🖥 Hệ thống: Có lỗi xảy ra, tập tin của bạn không được gửi!",
+    "react" : "🖥 Hệ thống: Bạn không thể reply tin nhắn hoặc react icon trong chế độ này!",
+    "unexpected error" : "🖥 Hệ thống: Có lỗi chưa xác định đã xảy ra! Tin nhắn của bạn không được gửi",
+    "premium require" : "🖥 Hệ thống: Tính năng chỉ hoạt động với \"Người ủng hộ\". Để sử dụng tính năng, hãy truy cập: bit.ly/sonderspace-donation",
+    "wrong syntax": "🖥 Hệ thống: Sai cú pháp",
+    "no command" : "🖥 Hệ thống: Lệnh của bạn vừa rồi không hợp lệ. Để biết thêm thông tin, hãy gõ \"/help\"",
+    "matching ban" : "🖥 Hệ thống: Cuộc trò chuyện sẽ tự động kết thúc do phía đối diện đã bị cấm sử dụng",
+    "ban message" : "🖥 Hệ thống: Tài khoản của bạn đã có những hành vi không chuẩn mực và vi phạm nghiệm trọng quy tắc cộng đồng. Tài khoản của bạn sẽ bị khoá vĩnh viễn trên Sonder Space. Cảm ơn bạn!",
+    "premium expiry" : "🖥 Hệ thống: Tài khoản của bạn đã hết hạn sử dụng tính năng đặc quyền đặc quyền của \"Người ủng hộ\". Hãy ủng hộ Admin tại: bit.ly/sonderspace-donation",
+    "already premium" : "🖥 Hệ thống: Người dùng này đã có tài khoản premium ",
+    "already not premium" : "🖥 Hệ thống: Người dùng này không có tài khoản premium",
+    "premium" : "🖥 Hệ thống: Chúc mừng!\nBạn đã trở thành \"Người ủng hộ\" của Sonder Space. Để kiểm tra lưu lượng còn lại, bạn có thể gõ \"/plan\"",
+    "donator" : "🖥 Hệ thống: Bạn đã trở thành \"Người ủng hộ\" đến hết: ",
+    "prom" : "🖥 Hệ thống: Chào mừng đến với chế độ match Prommate cho Red Carpet. Để bắt đầu, vui lòng nhắn \"/rc\" + token mà bạn đã được nhận qua email.\nĐể đăng kí, hãy truy cập bit.ly/sonderspace-findingprommate\nVí dụ: \"/rc 0XQgMlNdV0\"",
+    "token not found" : "🖥 Hệ thống: Token bạn nhập không tồn tại hoặc đã được sử dụng, vui lòng kiểm tra lại token.",
+    "promming": "🖥 Hệ thống: Bạn đã vào hàng đợi và sẽ được thông báo khi kết nối với Prommate. Để rời khỏi hàng đợi bạn có thể dùng lệnh \"/end\".",
+    "prommatch" : "🖥 Hệ thống: Prommate của bạn đã đến, hãy trò chuyện để hiểu nhau hơn nhé. Chúc các bạn có một đêm RC thành công.",
+    "info": "Để thoát cuộc trò chuyện, các bạn có thể dùng lệnh \"/end\". Tuy nhiên, nếu làm vậy 2 bạn sẽ không thể dùng token cũ để match được nữa. Ngoài ra các bạn có thể cho info của nhau trước nếu như cảm thấy phù hợp."
+}
